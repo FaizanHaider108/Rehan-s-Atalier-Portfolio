@@ -1,0 +1,256 @@
+.featured-head {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.featured-head img {
+    width: 50px;
+}
+
+.featured-head h1 {
+    color: #141414;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 170%;
+    /* 37.4px */
+    letter-spacing: 5.5px;
+    text-transform: uppercase;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+
+
+
+
+.project-contant {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.project-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.project-desc h2 {
+    color: #141414;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%;
+    /* 54.4px */
+}
+
+.project-desc p {
+    color: #141414;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 200%;
+    /* 32px */
+}
+
+
+.Project-list ul li {
+    color: #141414;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%;
+}
+
+.image-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.Broad-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.link-1 img {
+    padding-left: 10px;
+}
+
+.link-1 a {
+    color: #5994ED;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 30.6px */
+    text-decoration-line: underline;
+}
+
+.project-1 {
+    display: flex;
+    gap: 80px;
+}
+
+.project-img img {
+    width: 100%;
+}
+
+
+.project-img {
+    margin-top: 97px;
+    width: 642px;
+}
+
+.tags-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+
+.tags {
+    display: flex;
+    padding: 5px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #F9F9F9
+}
+
+.tags span {
+    font-family: "Lato" sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #141414;
+}
+
+.mobile-projects {
+    display: none;
+}
+
+@media (max-width: 430px) {
+
+    .projects {
+        display: none;
+    }
+
+    .featured-head {
+        margin-top: 60px;
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mobile-projects {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .featured-head img {
+        width: 32px;
+    }
+
+    .featured-head h1 {
+        color: #141414;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 170%;
+        /* 30.6px */
+        letter-spacing: 4.5px;
+        text-transform: uppercase;
+    }
+
+    .mobile-project {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .mobile-heading h3 {
+        color: #141414;
+        font-family: Lato;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 170%;
+    }
+
+
+
+    .mobile-img img {
+        width: 100%;
+    }
+
+
+    .mobile-contant {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .mobile-para {
+        color: #141414;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 200%;
+
+    }
+
+    .mobilelist {
+        color: #141414;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 200%;
+    }
+
+    .contant-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .link a>img {
+        width: 12px;
+        padding-left: 4px;
+    }
+
+    .link a {
+        color: #5994ED;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 170%;
+        /* 23.8px */
+        text-decoration-line: underline;
+    }
+}

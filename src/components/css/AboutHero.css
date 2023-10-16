@@ -1,0 +1,117 @@
+.about-desktop {
+    padding-top: 150px;
+}
+
+.about-desktop-heading-flexbox {
+    display: flex;
+    gap: 80px;
+    margin-top: 100px;
+}
+
+.about-desktop-heading h1 {
+    color: #141414;
+    font-family: Playfair Display;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 170%;
+    /* 81.6px */
+    text-transform: capitalize;
+}
+
+.about-desktop-para {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-desktop-para p {
+    color: #141414;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 200%;
+    /* 32px */
+}
+
+.about-mobile {
+    display: none;
+}
+
+.about-mobile-section {}
+
+@media (max-width: 767px) {
+    .about-desktop {
+        display: none;
+    }
+
+    .about-mobile {
+        display: block;
+    }
+
+    .about-mobile-section {
+        width: 100%;
+        background-color: rgba(245, 245, 245, 0.85);
+    }
+
+    .about-sectinon-image {
+        width: 100%;
+        /* background-color: aquamarine; */
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+
+    .about-mobile-section h4 {
+        margin-left: 40px;
+        color: #141414;
+        font-family: Playfair Display;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 200%;
+        /* 40px */
+        text-transform: capitalize;
+        position: absolute;
+        width: 175px;
+        padding-top: 40px;
+    }
+
+
+    .about-sectinon-image img {
+        width: 66%;
+    }
+
+
+    .about-mobile-section {
+        padding-top: 80px;
+    }
+
+    .about-mobile-section-para {
+        padding: 40px;
+        width: 100%;
+        background: rgba(245, 245, 245, 0.85);
+    }
+
+    .about-mobile-section-para p {
+        color: #141414;
+        font-family: Lato;
+        font-size: 14px;
+
+        font-style: normal;
+        font-weight: 300;
+        line-height: 200%;
+
+
+        /* 28px */
+    }
+
+    .mobile-para {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+}

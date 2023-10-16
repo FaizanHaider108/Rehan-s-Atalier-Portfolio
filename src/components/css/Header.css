@@ -1,0 +1,292 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background: #FFF;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.05);
+    padding-left: 220px;
+    /* z-index: 100000; */
+    padding-right: 220px;
+    z-index: 1000;
+}
+
+.logo a img {
+    width: 114px;
+    height: 48px;
+}
+
+.nav-items ul {
+    display: flex;
+    gap: 60px;
+}
+
+.nav-items ul li {
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.nav-items ul li a {
+    color: #141414;
+    text-decoration: none;
+    font-size: 15px;
+    height: 26px;
+    font-weight: 400;
+    transition: 0.5s ease-in-out;
+}
+
+.nav-items ul li a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.hover-underline {
+    display: inline-block;
+    position: relative;
+    color: #000000;
+}
+
+.hover-underline::after {
+    content: '';
+    position: absolute;
+    border-radius: 22px;
+    transform: scaleX(0);
+    width: 32px;
+    height: 8px;
+    bottom: 0;
+    left: 0;
+    background-color: #5994ED;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline:hover::after {
+    transform: scaleX(0.70);
+    margin-top: 2px;
+    transform-origin: bottom left;
+}
+
+.Mobile-navbar {
+    display: none;
+}
+
+
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 980px) {
+    .desktop_navbar {
+        display: none;
+    }
+
+    /* CSS for phones */
+    .desktop_navbar {
+        display: none;
+    }
+
+    .Mobile-navbar {
+        display: block;
+    }
+
+    .Mobile-navbar {
+        display: flex;
+        align-items: center;
+
+        min-height: 50px;
+        background-color: #FFFFFF;
+    }
+
+
+
+    .Mobile_logo img {
+        width: 80px;
+        height: 35px;
+        margin-left: 50%;
+
+    }
+
+    .Mobile-nav {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .Menu_icon {
+        width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+}
+
+/* Phones */
+@media (max-width: 767px) {
+
+    /* CSS for phones */
+    .desktop_navbar {
+        display: none;
+    }
+
+    .Mobile-navbar {
+        display: block;
+    }
+
+    .Mobile-navbar {
+        position: fixed;
+        top: 0;
+        display: flex;
+        align-items: center;
+        z-index: 10;
+        width: 100%;
+        min-height: 50px;
+        background-color: #FFFFFF;
+    }
+
+    .Mobile_logo img {
+        width: 80px;
+        height: 35px;
+        margin-left: 50%;
+
+    }
+
+    .Mobile-nav {
+        position: fixed;
+        top: 0;
+        width: 285px;
+        height: 100%;
+        background-color: #FFFFFF;
+
+    }
+
+
+
+    .Mobile-nav ul {
+        margin-left: 30px;
+        margin-top: 110px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .Mobile-nav ul li {
+        list-style: none;
+    }
+
+    .Mobile-nav ul li {
+        color: #141414;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+
+    .Menu_icon {
+        width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .openNav {
+        height: 50px;
+        gap: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .openNav img:nth-child(2) {
+        width: 88px;
+        height: 34px;
+    }
+
+    .openNav img:nth-child(1) {
+        margin-right: 30px;
+    }
+
+    .Mobile_logo {
+        height: 50px;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile-Nav-link {
+        color: #141414;
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .mobile-Nav-link:hover .bullet {
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background-color: #5994ED;
+        border-radius: 50%;
+        /* Make it round */
+        margin-right: 10px;
+        transition: 0.3s all;
+        /* Adjust the spacing as needed */
+    }
+
+    .ArrowDown {
+        stroke-width: 1px;
+    }
+
+    .mobile-Nav-link {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+    }
+
+    .Contact-nav {
+        margin-top: 358px;
+        margin-left: 40px;
+    }
+
+    .contact-Email {
+        color: #141414;
+        font-family: Playfair Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 170%;
+        /* 27.2px */
+    }
+
+    .contact-flexbox {
+        margin-top: 20px;
+    }
+
+    .boxes {
+        display: flex;
+        gap: 12px;
+    }
+
+    .boxes a img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .contact-flexbox {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+}
+
+/* All devices */
+@media (min-width: 0) {
+    /* CSS for all devices */
+}

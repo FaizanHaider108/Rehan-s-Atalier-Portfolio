@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Project Name
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A brief description of Portfolio project.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Project Overview
+"Rehan Itelier" is a dynamic and modern portfolio website built using React, designed to showcase the professional accomplishments, skills, and creative work of Rehan Itelier. The primary purpose of this website is to provide an engaging platform for Rehan to present his portfolio to potential employers, clients, and the broader online community.
 
-### `npm start`
+## Key Features:
+Portfolio Showcase: The website features a visually appealing portfolio section where Rehan can display his projects, artwork, and creative endeavors. Each portfolio item includes detailed information, images, and links to related projects or external sources.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About Me:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ Visitors can learn more about Rehan through the "About Me" section, which includes a brief biography, professional background, and a personal touch to establish a connection with the audience.
 
-### `npm test`
+## Resume Download:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ Rehan's resume is easily accessible for download, allowing interested parties to review his qualifications and experience.
 
-### `npm run build`
+## Contact Form: 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A contact form is provided to enable visitors to reach out to Rehan directly. It offers a convenient way for potential collaborators, employers, or clients to initiate communication.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Responsive Design: 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The website is designed to be fully responsive, ensuring a seamless and visually appealing experience on a variety of devices, including desktops, tablets, and mobile phones.
 
-### `npm run eject`
+## Smooth Navigation: 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The website features a user-friendly navigation menu that allows visitors to explore different sections of the portfolio effortlessly.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Customization: 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The website's design and content can be easily customized and expanded to accommodate future projects and updates.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+"Rehan Itelier" serves as an impressive online representation of Rehan's skills and achievements, making it a valuable asset for networking, career advancement, and showcasing his creative work to a global audience. Whether you're a potential employer, collaborator, or simply curious about Rehan's talents, this portfolio website offers an insightful glimpse into his professional journey.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npx create-react-app my-react-app
 
-### Code Splitting
+## step - 2
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+cd my-react-app
 
-### Analyzing the Bundle Size
+## Step 3: Start the Development Server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+npm start
 
-### Making a Progressive Web App
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+node -v
+npm -v
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![Cover Image](./cover-image.PNG){ width=300px height=200px }
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
