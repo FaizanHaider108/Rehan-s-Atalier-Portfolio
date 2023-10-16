@@ -1,4 +1,4 @@
-# Project Name
+# Getting Started with Create React App
 
 A brief description of Portfolio project.
 
@@ -33,27 +33,34 @@ The website features a user-friendly navigation menu that allows visitors to exp
 
 The website's design and content can be easily customized and expanded to accommodate future projects and updates.
 
-"Rehan Itelier" serves as an impressive online representation of Rehan's skills and achievements, making it a valuable asset for networking, career advancement, and showcasing his creative work to a global audience. Whether you're a potential employer, collaborator, or simply curious about Rehan's talents, this portfolio website offers an insightful glimpse into his professional journey.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+## Learn More
 
-## Getting Started
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-npx create-react-app my-react-app
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## step - 2
+### Code Splitting
 
-cd my-react-app
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Step 3: Start the Development Server
+### Analyzing the Bundle Size
 
-npm start
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Prerequisites
+### Making a Progressive Web App
 
-node -v
-npm -v
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
 
-![Cover Image](./cover-image.PNG){ width=300px height=200px }
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+### Deployment
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
